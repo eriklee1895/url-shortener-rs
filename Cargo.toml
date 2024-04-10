@@ -1,0 +1,12 @@
+[package]
+name = "url-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5.0-rc.4", features = ["json"] }
+shuttle-rocket = "0.43.0"
+shuttle-runtime = "0.43.0"
+shuttle-service = { version = "0.43.0", features = ["sqlx-postgres", "web-rocket"] }
+tokio = "1.26.0"
+
